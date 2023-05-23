@@ -1,4 +1,5 @@
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import AccessDataForm from "../AccessDataForm/AccessDataForm";
 import PersonalDataForm from "../PersonalDataForm/PersonalDataForm";
 
 const App = (): React.ReactElement => {
@@ -6,6 +7,7 @@ const App = (): React.ReactElement => {
     <>
       <h1>Form</h1>
       <PersonalDataForm />
+      <AccessDataForm />
     </>
   );
 };

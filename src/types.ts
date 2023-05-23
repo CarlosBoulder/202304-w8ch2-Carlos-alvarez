@@ -9,5 +9,4 @@ export interface AccessData {
   username: string;
   password: string;
   repeatPassword: string;
-  isSavedPassword: boolean;
 }

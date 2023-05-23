@@ -22,7 +22,7 @@ const PersonalDataForm = (): React.ReactElement => {
   return (
     <div className="form-container">
       <form>
-        <h2>Sign Up</h2>
+        <h2>Personal Data</h2>
         <div className="mb-3">
           <label htmlFor="firstname">First name</label>
           <input
@@ -31,11 +31,17 @@ const PersonalDataForm = (): React.ReactElement => {
             placeholder="First name"
             id="firstname"
             onChange={onChangePersonalData}
+            required
           />
         </div>
         <div className="mb-3">
           <label htmlFor="lastname">Last name</label>
-          <input type="text" className="form-control" placeholder="Last name" />
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Last name"
+            required
+          />
         </div>
         <div className="mb-3">
           <label htmlFor="birthdate">Birth date</label>
@@ -45,6 +51,7 @@ const PersonalDataForm = (): React.ReactElement => {
             placeholder="Birth date"
             id="birthdate"
             onChange={onChangePersonalData}
+            required
           />
         </div>
         <div className="mb-3">
@@ -55,6 +62,7 @@ const PersonalDataForm = (): React.ReactElement => {
             placeholder="Enter email"
             id="email"
             onChange={onChangePersonalData}
+            required
           />
         </div>
         <div className="d-grid">
