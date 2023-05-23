@@ -7,3 +7,42 @@
 html {
   font-family: sans-serif;
 }
+
+body {
+  margin: 0;
+}
+
+.form-container {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font: inherit;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding-block: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
